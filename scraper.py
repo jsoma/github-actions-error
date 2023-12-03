@@ -19,4 +19,5 @@ for story in stories:
 
 df = pd.DataFrame(all_data)
 df.to_csv("headlines.csv", index=False)
-print("Done! 🎉")
+
+print(f"Successfully scraped {len(all_data)} headlines 🎉")
